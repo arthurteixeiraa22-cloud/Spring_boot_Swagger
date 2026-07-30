@@ -18,7 +18,7 @@ Abaixo estão listados todos os sistemas e APIs desenvolvidos, com caminhos dire
   * `POST /playlist/adicionar` — Recebe uma nova música via `@RequestBody` e salva no arquivo.
 * **Conceitos aplicados:** Criação de APIs REST com `@RestController`, manipulação de arquivos com `FileReader` / `BufferedReader` e `FileWriter` (modo *append*).
 
-📂 [Acessar arquivos desta atividade](./atividade_01)  
+📂 [Acessar arquivos desta atividade](./playlistapi)  
 📄 [Ver arquivo de dados desta atividade (minha_playlist.txt)](./minha_playlist.txt)
 
 ---
@@ -31,7 +31,7 @@ Abaixo estão listados todos os sistemas e APIs desenvolvidos, com caminhos dire
   * `GET /personagens/categoria/{tipo}` — Filtra os personagens da categoria especificada usando o operador `instanceof`.
 * **Conceitos aplicados:** Herança de classes, manipulação de arquivos estruturados (CSV), uso de variáveis de caminho (`@PathVariable`) e filtros de busca com listas.
 
-📂 [Acessar arquivos desta atividade](./atividade_02)  
+📂 [Acessar arquivos desta atividade](./Catalogo_De_Personagens)  
 📄 [Ver arquivo de dados desta atividade (personagens_db.csv.txt)](./personagens_db.csv.txt)
 
 ---
@@ -43,7 +43,7 @@ Abaixo estão listados todos os sistemas e APIs desenvolvidos, com caminhos dire
   * `POST /hackathon/processar` — Valida as inscrições (idade de 14 a 21 anos), gera os arquivos locais de saída e retorna um JSON com o resumo do processamento.
 * **Conceitos aplicados:** Validação de regras de negócio complexas, leitura/escrita simultânea de múltiplos arquivos e criação de DTOs (`RelatorioProcessamento`) para respostas personalizadas.
 
-📂 [Acessar arquivos desta atividade](./atividade_03)  
+📂 [Acessar arquivos desta atividade](./Portal_Do_Hackathon)  
 📄 [Ver inscrições brutas (inscricoes_brutas.txt)](./inscricoes_brutas.txt)  
 📄 [Ver relatório de aprovados (aprovados_hackathon.txt)](./aprovados_hackathon.txt)  
 📄 [Ver relatório de pendências (pendencias_inscricoes.txt)](./pendencias_inscricoes.txt)
